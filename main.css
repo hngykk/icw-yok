@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("font/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url("font/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "cabin";
+  src: url("font/Cabin-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "opensans-light";
+  src: url("font/OpenSans-Light.ttf");
+}
+
+p {
+  font-family: "opensans";
+}
+
+ul {
+  font-family: "cabin";
+}
+
+span {
+  font-family: "opensans-light";
+}
+
+h1,
+h2,
+h3,
+strong,
+button {
+  font-family: "gilroy";
+}
+
+.row {
+  margin: unset !important;
+}
